@@ -4,7 +4,7 @@ const minutosId= document.getElementById("minutos");
 const segundosId= document.getElementById("segundos");
 
 function contador(){
-    const fechaAnioNuevo= new Date("January 1, 2022 00:00:00");
+    const fechaAnioNuevo= new Date("January 1, 2023 00:00:00");
     const fechaActual= new Date();
     const diferencia=fechaAnioNuevo-fechaActual;
    
